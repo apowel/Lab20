@@ -2,21 +2,29 @@
     <head>
         <link href="Bootstrap.css" rel="stylesheet">
         <link href="Site.css" rel="stylesheet">
+        <script src="site.js"></script>
     </head>
 <body>
+    <div>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav id="navbar" class="sticky navbar_top navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <div class="container">
             <a class="navbar-brand" href="Home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <a href="About.html" class="HeaderLinks">About</a>
             <a href="Portfolio.html" class="HeaderLinks">Portfolio</a>
+        </div>
         </nav>
     </header>
+    </div>
     <div class="container">
-    <div class="card" style="width: 36rem;">
+    <div class="card" style="width: 90%;">
         <h2 class="card-header">Blogging?</h2>
         <div class="card-body">
              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
@@ -24,8 +32,9 @@
             </p>
         </div>
     </div>
-    <div class="card-body">
-        <h2>Developing?</h2>
+    <div class="card" style="width: 90%;">
+        <h2 class="card-header">Developing</h2>
+        <div class="card-body">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
             laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
@@ -36,10 +45,13 @@
             nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea 
             commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
             esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas 
-            nulla pariatur?</p>
+            nulla pariatur?
+        </p>
+        </div>
     </div>
-    <div class="card-body">
-        <h2>Hometown</h2>
+    <div class="card" style="width: 90%;">
+        <h2 class="card-header">Hometown</h2>
+        <div class="card-body">
         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
             voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
             occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt 
