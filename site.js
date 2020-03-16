@@ -15,3 +15,11 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+function initMap() {
+
+  let blissfield = {lat: 41.832, lng: 83.862};
+  let map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: blissfield});
+  // The marker, positioned at Uluru
+  let marker = new google.maps.Marker({position: blissfield, map: map});
+}
