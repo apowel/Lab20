@@ -2,20 +2,28 @@
     <head>
         <link href="Bootstrap.css" rel="stylesheet">
         <link href="Site.css" rel="stylesheet">
+        <script src="site.js"></script>
     </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <a class="navbar-brand" href="Home.html">Home</a>
-            <a href="About.html" class="HeaderLinks">About</a>
-            <a href="Portfolio.html" class="HeaderLinks">Portfolio</a>
-        </nav>
-    </header>
     <div>
+        <header>
+            <nav id="navbar" class="sticky navbar_top navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="Home.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="About.html" class="HeaderLinks">About</a>
+                <a href="Portfolio.html" class="HeaderLinks">Portfolio</a>
+            </div>
+            </nav>
+        </header>
+        </div>
+    <div class="container">
         some notable project
     </div>
 </body>
-<footer>
+<footer class="container">
     this is a footer
 </footer>
 </html>
